@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+ENV/
+
+# Environment
+.env
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project outputs & DB
+data/uploads/*
+data/processed/*
+data/outputs/*
+data/masks/*
+!data/uploads/.gitkeep
+!data/processed/.gitkeep
+!data/outputs/.gitkeep
+!data/masks/.gitkeep
+*.db
+*.sqlite3
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+dist-ssr/
+*.local
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model checkpoints
+*.pth
+*.pt
+*.onnx
+*.h5
+checkpoints/*
+!checkpoints/.gitkeep
+
+# Logs & OS
+*.log
+logs/
+.DS_Store
+Thumbs.db
+
